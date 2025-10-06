@@ -30,14 +30,14 @@ class City:
         self.enemies = []
 
 class NPC:
-    def __init__(self, name, role, city, defaultdialogue):
+    def __init__(self, name, role, city, defaultdialogue="Hello!"):
         self.name = name
         self.role = role
         self.city = city
         self.defaultdialogue = defaultdialogue
 
 class Boss: # add more attributes as needed
-    def __init__(self, name, regdion, strength):
+    def __init__(self, name, region, strength):
         self.name = name
         self.region = region
         self.strength = strength
@@ -93,6 +93,7 @@ rhythmic_realms.cities = [
 
 # NPCs (add more for each city)
 harmonia.cities[0].npcs.append(NPC("Maestro Melody", "Festival Conductor", harmonia.cities[0]))
+harmonia.cities[1].npcs.append(NPC)
 string_haven.cities[0].npcs.append(NPC("Viola Virtuoso", "String Instructor", string_haven.cities[0]))
 windwoodspire.cities[0].npcs.append(NPC("Flora Flutist", "Forest Guide", windwoodspire.cities[0]))
 brass_citadel.cities[0].npcs.append(NPC("Sir Trumpet", "Parade Leader", brass_citadel.cities[0]))
@@ -105,3 +106,6 @@ string_haven.bosses.append(Boss("Broken Bow", string_haven, 3))
 windwoodspire.bosses.append(Boss("Wind Wraith", windwoodspire, 5))
 brass_citadel.bosses.append(Boss("Brass Bully", brass_citadel, 6))
 rhythmic_realms.bosses.append(Boss("Drum Demon", rhythmic_realms, 7))
+
+def main():
+    print("World building complete. Ready for expansion!")
