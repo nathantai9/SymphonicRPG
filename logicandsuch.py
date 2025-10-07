@@ -123,4 +123,4 @@ print(colorama.Fore.RED + f"--------------------------------------" + colorama.S
 
 # if __name__ == "__main__":
 #     show_world_map()
-#     # TODO: Add game loop, character creation, movement, battles, quests, etc.
+#     print("hi nathaniel taillamo")
