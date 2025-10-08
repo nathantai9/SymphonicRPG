@@ -71,7 +71,7 @@ brass_citadel.bosses.append(Boss("Brass Bully", brass_citadel, 6))
 rhythmic_realms.bosses.append(Boss("Drum Demon", rhythmic_realms, 7))
 
 def main():
-    print("World building complete. Ready for expansion!")
+    print("World building complete.")
 
 # ----------- Boss Battle Logic -----------
 
